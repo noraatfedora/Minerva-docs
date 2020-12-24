@@ -4,7 +4,9 @@ Minerva is a website that allows for food banks to automatically calculate route
 # Managing clients
 
 ## File upload
-![](https://i.imgur.com/U7Qssli.png)
+
+![](https://i.imgur.com/BWXKReF.png)
+
 
 - The easiest way to add many clients at once is to upload a spreadsheet.
 - Make sure that your spreasheet contains the following columns on each page:
@@ -18,12 +20,15 @@ Minerva is a website that allows for food banks to automatically calculate route
     - Zip
     - Phone
     - Notes
+
 ### Upload options
 - If you're uploading a spreadsheet that contains every client, then you can check the box to delete any extra users that might be in the database. **Be careful!**
 - The "header" is the row number of your spreadsheet that contains the column names. If your spreadsheet has the words "Email," "First Name," etc. on row 1, then set your header to 1. If you have a title at the top of your spreadsheet, your header is 1. If you don't have a title row, your header is 0.
+- If you have clients that you want to keep track of but shouldn't be accounted for when generating routes, you can upload these users by checking the box. Make sure that the sheets are named correctly. (see bellow)
 
 ### Master List
 - This is just a normal spreadsheet of clients. It should only have one page on it. If you hit "Download as spreadsheet" on the "all users" page, it's that same format.
+- The first sheet must be called "Master list". If you check the "create disabled users from the second sheet", the second sheet must be named "Disabled clients". If you're getting an error, check capitalization!
 
 ### Routes list
 - If you've exported your routes into a spreadsheet before, added or removed a few people, and want to update these clients, you can select this option. Each route is on a different page of the spreadsheet. 
@@ -50,7 +55,7 @@ When you're done adding new clients, it's best to calculate new routes as soon a
 - Each route has a "priority score." If your volunteers have accounts and are marking when they deliver to each client, then routes with high priority scores will mean that the route should be done sooner. When a volunteer claims a new route in their account, they get one with the highest priority score.
 - If you want to combine routes, you can use the "move all to route" feature. Enter the ID of the route that you want to move to.
 - You can also move individual clients to another route. Click on "show __ stops", click on the address of the client you want to move, and you should see the option.
-
+- You can split routes in half. Note that when splitting a route, it'll split in half with regards to driving distance, not the actual number of stops.
 ## Advanced route options
 ![](https://i.imgur.com/tcYrpzF.png)
 
