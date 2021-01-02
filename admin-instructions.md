@@ -1,7 +1,14 @@
 # Minerva Documentation (admin accounts)
 Minerva is a website that allows for food banks to automatically calculate routes for delivery. It keeps a database of clients and allows for either volunteer logins or spreadsheet exports. You can access it at https://minervagroceries.org .
 
-# Managing clients
+# All users page
+
+- The "All users" page lets you view client information.
+- The gray cards are users that are on the removal list. You can put them back on the master list by clicking "Enable user", or fully delete them.
+- Blue cards are enabled users. You can click to add them to the removal list.
+
+# Adding new clients
+
 
 ## File upload
 
@@ -46,7 +53,7 @@ Minerva is a website that allows for food banks to automatically calculate route
 
 When you're done adding new clients, it's best to calculate new routes as soon as possible. Then, you can download your list of clients from the "all users" page. **Make sure to back this up regularly!**
 # Route planning
-![](https://i.imgur.com/cTIZZOC.png)
+![](https://i.imgur.com/JniTiM2.png)
 
 
 - On the "routes" tab, you can see a list of calculated routes. 
@@ -56,8 +63,24 @@ When you're done adding new clients, it's best to calculate new routes as soon a
 - If you want to combine routes, you can use the "move all to route" feature. Enter the ID of the route that you want to move to.
 - You can also move individual clients to another route. Click on "show __ stops", click on the address of the client you want to move, and you should see the option.
 - You can split routes in half. Note that when splitting a route, it'll split in half with regards to driving distance, not the actual number of stops.
+
+## Driver printouts
+- Clicking "View as PDF" on a single route card or the "Export to PDF" button at the top will generate driver printouts.
+- Exporting to PDF may take about a minute to generate.
+- QR codes on the driver printouts will redirect to Google maps.
+    - There are multiple codes because Google Maps doesn't allow turn-by-turn directions for routes with more than 8 stops.
+    - If your driver is using an iPhone or iPad, they can scan using their default camera app.
+    - Android users must use Google lens to scan properly. Most other QR code apps may have trouble redirecting to Google maps.
+    - Android users that don't have Google Lens cannot get it on the Google Play Store, but they can get it at https://apkpure.com/google-lens/com.google.ar.lens . They'll need to enable downloading apps from 3rd party sources, which will probably pop up when they try to open the APK file.
+
+## Interpreting route statistics
+- Click on the "route statistics" button to see route statistics.
+- The standard deviation is useful if you want to know how fair the routes are. A smaller standard deviation means the routes are more fair.
+
 ## Advanced route options
-![](https://i.imgur.com/tcYrpzF.png)
+
+![](https://i.imgur.com/FG9XW28.png)
+
 
 
 - If you hit "advanced options," you can fine tune the route planning algorithm. If you want good routes that are an hour-ish, you can ignore these options.
@@ -65,13 +88,14 @@ When you're done adding new clients, it's best to calculate new routes as soon a
 - **Each delivery is equivalent to driving ___ meters:** Because it takes a few minutes to physically step out of the car, locate  a house, etc., increase this number the longer it takes your volunteers.
 - **Global Span Cost:** Increasing the Global Span Cost creates shorter routes. It also creates more routes. If you increase the Global Span Cost and it's taking a lot of time to calculate, increase the maximum number of routes.
 - **Solution limit:** When routes are calculated, the algorithm generates a number of solutions and picks the best one. You can change the maximum number of solutions it generates to speed it up. Usually, you should use this by setting it to "1" if you want to generate bad routes really quickly (to check if it's solvable).
-- Note that all length calculations are done with Euclidian distance. It takes each address, gets the longitutde and lagnitude coordinates, and measures the distance between those two coordinates. It does not factor in the different speeds on roads or highways, or the angles of any roads. Keep this in mind when looking at route lengths.
+- **One city per route:** Check this box if you want each route to focus on a single city. If a city only has a couple people on it, it'll group that city with the city with the most people.
+- Note that all length calculations are done with Euclidian distance. It takes each address, gets the longitutde and lagnitude coordinates, and measures the distance between those two coordinates. It does not factor in the different speeds on roads or highways, or the angles of any roads. Keep this in mind when looking at route lengths. Estimating the actual distances can be done by just replacing "KM" with "miles", e.g. if it says 10KM it'll be *about* a 10 mile drive. Or you can just click the Google maps link.
 
 
 # Driver management
 ![](https://i.imgur.com/FfJsmK3.png)
 
-- Volunteers can create new accounts at https://minervagroceries.org/volunteerregister .
+- Drivers can create new accounts at https://minervagroceries.org/volunteerregister . You might not be using this feature, if you just export all your routes and give printouts to drivers.
 - When they have created an account, you can approve them by going to your "volunteer settings" page and selecting them from the dropdown list.
 - When a volunteer is approved, they can login and view their dashboard.
 
