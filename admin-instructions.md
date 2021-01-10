@@ -6,6 +6,12 @@ Minerva is a website that allows for food banks to automatically calculate route
 - The "All users" page lets you view client information.
 - The gray cards are users that are on the removal list. You can put them back on the master list by clicking "Enable user", or fully delete them.
 - Blue cards are enabled users. You can click to add them to the removal list.
+- Click "Edit user data" to change a user's data. 
+
+# Editing user data
+- This page lets you edit user data. It can be accessed from the "All users page."
+- Make sure that you enter a valid address. If you get an error, try entering the address into Google Maps and making sure it works.
+- Make sure to hit save!
 
 # Adding new clients
 
@@ -53,7 +59,8 @@ Minerva is a website that allows for food banks to automatically calculate route
 
 When you're done adding new clients, it's best to calculate new routes as soon as possible. Then, you can download your list of clients from the "all users" page. **Make sure to back this up regularly!**
 # Route planning
-![](https://i.imgur.com/JniTiM2.png)
+
+![](https://i.imgur.com/3In00RI.png)
 
 
 - On the "routes" tab, you can see a list of calculated routes. 
