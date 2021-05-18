@@ -8,6 +8,9 @@ Minerva is a website that allows for food banks to automatically calculate route
 - Blue cards are enabled users. You can click to add them to the removal list.
 - Click "Edit user data" to change a user's data. 
 
+## Finding duplicates
+- To find and remove duplicate clients, you can click the "find duplicates" button. This will create pairs of cards, where similarly colored cards will share a similar name.
+
 # Editing user data
 - This page lets you edit user data. It can be accessed from the "All users page."
 - Make sure that you enter a valid address. If you get an error, try entering the address into Google Maps and making sure it works.
