@@ -1,5 +1,5 @@
 # Minerva Documentation (admin accounts)
-Minerva is a website that allows for food banks to automatically calculate routes for delivery. It keeps a database of clients and allows for either volunteer logins or spreadsheet exports. You can access it at https://minervagroceries.org .
+Minerva is a website that allows for food banks to automatically calculate routes for delivery. It keeps a database of clients and allows for either volunteer logins or spreadsheet exports. You can access it at https://minervagroceries.com .
 
 # All users page
 
