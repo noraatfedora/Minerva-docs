@@ -1,6 +1,6 @@
 # Minerva documentation (homepage)
 
-This is the documentation for [minervagroceries.org.](https://minervagroceries.org)
+This is the documentation for [minervagroceries.com](https://minervagroceries.com).
 
 To view step-by-step instructions for creating routes from a spreadsheet, click [here](/Minerva-docs/route-instructions).
 
