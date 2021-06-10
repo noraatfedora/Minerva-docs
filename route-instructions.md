@@ -62,18 +62,20 @@ You should see the "All Users" page when signed in successfully. You can change 
     9. Create a new row at the top. You can do this by right clicking on the "1" corresponding to the top row, and then clicking `+ Insert 1 row above`.
     ![](https://i.imgur.com/8c9Os5m.png)
     ![](https://i.imgur.com/sZw4mwa.png)
-    10. Add labels in your top row. Your labels should be:
-        - Email
-        - First Name
-        - Last Name
-        - Address
-        - Apt
-        - City
-        - State
-        - Zip
-        - Phone
-        - Notes
-        **Tip:** You can quickly add labels by copying the row from last week's sheet.
+    10. Add labels in your top row.  **Tip:** You can quickly add labels by copying the row from last week's sheet.
+    
+    Your labels should be:
+    - Email
+    - First Name
+    - Last Name
+    - Address
+    - Apt
+    - City
+    - State
+    - Zip
+    - Phone
+    - Notes
+    
         You can skip labeling any other columns. **Make sure that your capitalization matches as shown! If you mess this up you'll get an error when you try to upload your users!**
     ![](https://i.imgur.com/zhAV5Rp.png)
     11. You'll want to create a new spreadsheet on your computer, with just this single sheet on it. The way I prefer to do this is:
