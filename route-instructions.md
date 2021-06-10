@@ -1,6 +1,6 @@
 # Creating delivery routes instructions
 
-The website that Jared has created for managing delivery routes is https://minervagroceries.org .
+The website that Jared has created for managing delivery routes is https://minervagroceries.com .
 The website supports accounts for food banks, delivery clients, and drivers. Currently, only the food banks should sign into the website.
 
 ![](https://i.imgur.com/sW5GpaC.png)
@@ -104,9 +104,9 @@ The only one you might want to click is "One city per route", which makes each r
 ![](https://i.imgur.com/49pI0iX.png)
 
 - This will be the screen that you see when you hit "Generate new routes".
-- There is currently a bug in the software that makes this screen crash after a bit. You will see a Cloudflare error, and then it'll redirect you back to the "Manage Routes" page, with zero routes displayed.
+- There is currently a bug in the loading screen where sometimes it might not tell you when routes are done. You can double check if routes are done by opening "Manage routes" at the top in a new tab. If it looks like the following:
 ![](https://i.imgur.com/MLsWA7i.png)
-- This is fine. Wait half an hour, click "Manage Routes" on the top bar again to refresh (doing control-R will cause it to restart loading routes and that's not what you want), and you'll see the routes.
+Then the routes are still being generated, and you can refresh the page until they appear.
 - This issue will be fixed soon.
 
 ### Troubleshooting
