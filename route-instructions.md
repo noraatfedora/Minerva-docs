@@ -106,10 +106,12 @@ The only one you might want to click is "One city per route", which makes each r
 ![](https://i.imgur.com/49pI0iX.png)
 
 - This will be the screen that you see when you hit "Generate new routes".
-- There is currently a bug in the loading screen where sometimes it might not tell you when routes are done. You can double check if routes are done by opening "Manage routes" at the top in a new tab. If it looks like the following:
-![](https://i.imgur.com/MLsWA7i.png)
-Then the routes are still being generated, and you can refresh the page until they appear.
-- This issue will be fixed soon.
+## Files you'll want
+- To save the appropriate information to the Sharepoint, do the following:
+    - `Download routes as spreadsheet (without links)`
+    - `Export to PDF` (this will take a bit to load, then hit ctrl-s to save the file)
+    - `Download route overview`
+    - On the "All Users page", download a fresh copy of the spreadsheet to save any client list updates you have made. 
 
 ### Troubleshooting
 - If you see a `503 internal server error`, nine times out of ten, this will work if you refresh the page.
